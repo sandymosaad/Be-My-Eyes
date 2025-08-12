@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --link-light-mode:#004ac1;
+    --link-blue-dark-mode:#85b4ff;
+}
+nav{
+    z-index: 1000;
+}
+
+.log{
+    width: 50px;
+}
+.logo span{
+    color:var(--link-light-mode) ;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.list-links a:hover{
+    color:var(--link-light-mode) !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;    
+}
+.downloadLink{
+        color:var(--link-light-mode) ;
+
+}
+.list-links ul li{
+    list-style: none;
+}
+
+.tob-header a {
+    text-decoration: underline;
+    color: var(--link-blue-dark-mode);
+    text-underline-offset: 6px;
+}
+
+.tob-header a:hover {
+    text-decoration: none;
+}
