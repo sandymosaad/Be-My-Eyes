@@ -47,3 +47,10 @@ nav{
 .tob-header a:hover {
     text-decoration: none;
 }
+
+header h1{
+    font-size: 7rem;
+    font-weight: bolder;
+    line-height :0.95em;
+    margin-bottom: 40px;
+}
